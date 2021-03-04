@@ -1,12 +1,8 @@
-@import "normalize.scss";
-@import "fonts.scss";
-@import "header.scss";
-
 body {
 	font-family: "DINPro";
 }
 
-hr {
-	background-color: #d7d7d7;
-	border: 1px solid #d7d7d7;
-}
+@import "normalize.scss";
+@import "fonts.scss";
+@import "header.scss";
+@import "product.scss";

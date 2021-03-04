@@ -41,16 +41,157 @@
 				</nav>
 				<div class="header-nav__favourite">
 					<img src="img/header/favourite.png" alt="Favourite">
-					<p class="favouriteCounter">0</p>
+					<p class="favourite__counter">0</p>
 				</div>
 				<div class="header-nav__basket">
 					<img src="img/header/basket.png" alt="Basket">
-					<p class="basketCounter">0</p>
+					<p class="basket__counter">0</p>
 				</div>
 			</div>
 		</div>
 	</header>
 
+	<main class="product">
+		<div class="product-container">
+			<div class="product-picrures">
+				<div class="product-slider">
+					<div class="slider__main">
+						<img src="img/products/slider/main-picture.png" alt="Slide-1">
+					</div>
+					<div class="slider-bottom">
+						<div class="slider-bottom__item">
+							<img src="img/products/slider/product-picture-1.png" alt="Slide-2">
+						</div>
+						<div class="slider-bottom__item">
+							<img src="img/products/slider/product-picture-2.png" alt="Slide-2">
+						</div>
+						<div class="slider-bottom__item">
+							<img src="img/products/slider/product-picture-3.png" alt="Slide-3">
+						</div>
+						<div class="slider-bottom__item">
+							<img src="img/products/slider/product-picture-4.png" alt="Slide-4">
+						</div>
+						<div class="slider-bottom__item">
+							<img src="img/products/slider/product-picture-5.png" alt="Slide-6">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="product-content">
+				<div class="content-top">
+					<h1 class="content-top__title">Рюкзак PUMA</h1>
+					<div class="content-rating">
+						<p class="content-top__views">просмотров: 200</p>
+						<div class="rating">
+							<div class="rating__items">
+								<input id="rating__5" type="radio" class="rating__item" name="rating" value="5">
+								<label for="rating__5" class="rating__label"></label>
+								<input id="rating__4" type="radio" class="rating__item" name="rating" value="4">
+								<label for="rating__4" class="rating__label"></label>
+								<input id="rating__3" checked type="radio" class="rating__item" name="rating" value="3">
+								<label for="rating__3" class="rating__label"></label>
+								<input id="rating__2" type="radio" class="rating__item" name="rating" value="2">
+								<label for="rating__2" class="rating__label"></label>
+								<input id="rating__1" type="radio" class="rating__item" name="rating" value="1">
+								<label for="rating__1" class="rating__label"></label>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="content-info">
+					<h1 class="content-info__price">5 000.00 <span>KZT / Шт.</spa>
+					</h1>
+					<p class="content-info__amount">В наличии на складе: <b>(1)</b></p>
+				</div>
+				<div class="content-color">
+					<p class="content-color__title">Цвет:</p>
+					<div class="color-types">
+						<div class="color-type">
+							<img src="img/products/colors/green.png" alt="Green">
+							<p class="color-type__name">Зеленый</p>
+						</div>
+						<div class="color-type">
+							<img src="img/products/colors/yellow.png" alt="Yellow">
+							<p class="color-type__name">Желтый</p>
+						</div>
+						<div class="color-type">
+							<img src="img/products/colors/red.png" alt="red">
+							<p class="color-type__name">Красный</p>
+						</div>
+						<div class="color-type">
+							<img src="img/products/colors/blue.png" alt="blue">
+							<p class="color-type__name">Синий</p>
+						</div>
+					</div>
+				</div>
+				<div class="content-delivery">
+					<p class="content-delivery__title">Способ доставки:</p>
+					<div class="content-delivery__choice">
+						<div class="choice-pickup">
+							<input checked type="radio" name="choice">
+							<p class="choice-pickup__text">Самовывоз</p>
+						</div>
+						<div class="choice-delivery">
+							<input type="radio" name="choice">
+							<p class="choice-delivery__text">Доставка</p>
+						</div>
+					</div>
+					<div class="content-delivery__pickpoint">
+						<p class="pickpoint-title">Пункт самовывоза:</p>
+						<div class="pickpoint-choices">
+							<div class="pickpoint-choice">
+								<input type="radio" checked name="pickpoint-choice">
+								<p class="pickpoint-choice__text">Мангеликель 17 ЖК Коркем (Мангеликель 17)</p>
+							</div>
+							<div class="pickpoint-choice">
+								<input type="radio" name="pickpoint-choice">
+								<p class="pickpoint-choice__text">Шоурум № 1 2018 (Абая 8 Торговый дом Алтын)</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="content-buttons">
+					<button class="content-buttons__basket">
+						<img class="content-buttons__basket_space" src="img/header/basket.png" alt="Basket">
+						Добавить в корзину
+					</button>
+					<button class="content-buttons__favourite">
+						<img class="content-buttons__favourite_space" src="img/products/favourite.png" alt="Basket">
+						В избранное
+					</button>
+					<button class="content-buttons__more">
+						Оптовые предложения
+					</button>
+				</div>
+				<div class="content-more">
+					<div class="content-more__wrapper">
+						<div class="content-more__basket">
+							<p class="basket__text">Товаров в корзине:</p>
+							<p class="basket__counter"><b>0</b></p>
+						</div>
+						<div class="content-more__favourite">
+							<p class="favourite__text">В избранном:</p>
+							<p class="favourite__counter"><b>0</b></p>
+						</div>
+					</div>
+					<div class="content-more__links">
+						<p class="content-more__links__text">Поделиться товаром:</p>
+						<i class="fab fa-twitter"></i>
+						<i class="fab fa-facebook-f"></i>
+						<i class="fab fa-vk"></i>
+						<i class="fab fa-odnoklassniki"></i>
+						<i class="fab fa-google-plus-g"></i>
+						<i class="fab fa-invision"></i>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+
 </body>
+
+<script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+<script src="js/jquery.maskedinput.min.js"></script>
+<script src="https://kit.fontawesome.com/14d6c6ff2f.js" crossorigin="anonymous"></script>
 
 </html>
