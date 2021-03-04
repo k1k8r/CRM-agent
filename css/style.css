@@ -111,3 +111,138 @@ h6 {
   font-weight: 700;
   font-style: normal;
 }
+
+.header {
+  padding: 0 0 136px;
+}
+
+.header-enter {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  max-width: 1365px;
+  margin: 0 auto;
+  padding: 16px 0 15px;
+}
+
+.header-enter__link {
+  font-size: 14px;
+  font-weight: 400;
+  color: #202020;
+  margin-right: 9px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1365px;
+  margin: 0 auto;
+}
+
+.header-log {
+  max-width: 100%;
+  margin-right: 15px;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo__title {
+  font-size: 24px;
+  font-weight: 500;
+  color: #202020;
+  letter-spacing: 2px;
+}
+
+.header-logo__subtitle {
+  font-size: 12px;
+  font-weight: 400;
+  color: #202020;
+  margin-left: 2px;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-nav__favourite {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 61px;
+  height: 84px;
+  background-color: #f1f1f1;
+  clip-path: polygon(100% 0, 100% 100%, 50% 85%, 0 100%, 0 0);
+  padding: 15px 20px 25px;
+  margin-right: 10px;
+}
+
+.header-nav__favourite .favouriteCounter {
+  font-size: 16px;
+  font-weight: 400;
+  color: #f47920;
+  margin-top: 12px;
+}
+
+.header-nav__basket {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 61px;
+  height: 84px;
+  background-color: #f47920;
+  clip-path: polygon(100% 0, 100% 100%, 50% 85%, 0 100%, 0 0);
+  padding: 15px 20px 25px;
+  margin-right: 10px;
+}
+
+.header-nav__basket .basketCounter {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  margin-top: 12px;
+}
+
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 49px;
+}
+
+.header-list {
+  display: flex;
+  list-style: none;
+}
+
+.header-list__link {
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #202020;
+  margin-right: 35px;
+}
+
+.header-list__link_dropdown {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: #f47920;
+  margin-right: 35px;
+}
+
+body {
+  font-family: "DINPro";
+}
+
+hr {
+  background-color: #d7d7d7;
+  border: 1px solid #d7d7d7;
+}
