@@ -13,7 +13,7 @@
 
 	<header class="header">
 		<div class="header-enter">
-			<p class="header-enter__link">Вход на сайт</p>
+			<p class="header-enter__link"><a href="#popup">Вход на сайт</a></p>
 			<img src="img/header/lock.png" alt="Lock">
 		</div>
 		<hr>
@@ -29,8 +29,8 @@
 				<nav class="header-menu">
 					<ul class="header-list">
 						<li><a class="header-list__link" href="#">Объявление</a></li>
-						<li><a class="header-list__link_dropdown" href="#">Каталоги <img src="img/header/next.svg"
-									alt="Dropdown"></a>
+						<li><a class="header-list__link_dropdown header-list__link" href="#">Каталоги <img
+									src="img/header/next.svg" alt="Dropdown"></a>
 						</li>
 						<li><a class="header-list__link" href="#">Участники</a></li>
 						<li><a class="header-list__link" href="#">Партнеры</a></li>
@@ -99,8 +99,7 @@
 					</div>
 				</div>
 				<div class="content-info">
-					<h1 class="content-info__price">5 000.00 <span>KZT / Шт.</spa>
-					</h1>
+					<h1 class="content-info__price">5 000.00 <span>KZT / Шт.</span></h1>
 					<p class="content-info__amount">В наличии на складе: <b>(1)</b></p>
 				</div>
 				<div class="content-color">
@@ -167,11 +166,11 @@
 					<div class="content-more__wrapper">
 						<div class="content-more__basket">
 							<p class="basket__text">Товаров в корзине:</p>
-							<p class="basket__counter"><b>0</b></p>
+							<p class="basket__counter">0</p>
 						</div>
 						<div class="content-more__favourite">
 							<p class="favourite__text">В избранном:</p>
-							<p class="favourite__counter"><b>0</b></p>
+							<p class="favourite__counter">0</p>
 						</div>
 					</div>
 					<div class="content-more__links">
@@ -188,10 +187,30 @@
 		</div>
 	</main>
 
+	<div id="popup" class="popup">
+		<a href="#" class="popup__area"></a>
+		<div class="popup-body">
+			<div class="popup-content">
+				<a href="" class="popup__close">X</a>
+				<div class="popup__title">Авторизация</div>
+				<form class="popup-form" onsubmit="return validate()" action="index.html">
+					<input id="username" required type="text" placeholder="Логин">
+					<input id="userpass" required type="password" placeholder="Пароль">
+					<input id="usermail" required type="email" placeholder="Email">
+					<input id="userphone" required type="tel" placeholder="Введите телефон">
+					<button type="submit" class="popup-form__send">Войти</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
 </body>
 
 <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
 <script src="js/jquery.maskedinput.min.js"></script>
 <script src="https://kit.fontawesome.com/14d6c6ff2f.js" crossorigin="anonymous"></script>
+<script src="js/counter.js"></script>
+<script src="js/mask.js"></script>
+<script src="js/validations.js"></script>
 
 </html>

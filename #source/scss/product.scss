@@ -343,6 +343,10 @@
 		padding: 5px 11px 5px 5px;
 		margin-right: 10px;
 
+		&:hover {
+			border-color: #f47920;
+		}
+
 		&__text {
 			font-size: 14px;
 			font-weight: 400;
@@ -359,6 +363,12 @@
 		color: #202020;
 		margin-right: 2px;
 	}
+
+	&__counter {
+		font-size: 14px;
+		font-weight: 700;
+		color: #202020;
+	}
 }
 
 .favourite {
@@ -367,6 +377,12 @@
 		font-weight: 400;
 		color: #202020;
 		margin-right: 2px;
+	}
+
+	&__counter {
+		font-size: 14px;
+		font-weight: 700;
+		color: #202020;
 	}
 }
 
